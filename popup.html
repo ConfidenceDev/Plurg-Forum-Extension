@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Connecting with people" />
+    <meta
+      name="keywords"
+      content="forum, chat, social, facebook, instagram, twitter, youtube, linkedin, telegram, snapchat"
+    />
+    <meta name="author" content="Plurg Inc." />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <title>Plurg | Social Me</title>
+  </head>
+  <body class="home">
+    <div class="home_cover">
+      <div class="broad top">
+        <label class="count"><b class="ac_count"></b> Online</label>
+        <hr />
+        <div class="top_topic">
+          <marquee
+            class="topic"
+            behavior="60%"
+            direction="left"
+            scrollamount="5"
+          >
+          </marquee>
+          <a href="http://localhost:5000/#popup_topic" target="_blank"
+            ><img src="./icons/edit.png" alt="" class="edit_btn"
+          /></a>
+        </div>
+      </div>
+      <div class="broad mid">
+        <ul class="thread"></ul>
+        <div class="input_container">
+          <input type="text" class="write_field" placeholder="Write..." />
+          <img src="./icons/send.png" alt="" class="write_btn btns" />
+          <a href="http://localhost:5000" target="_blank" class="web_btn btns"
+            ><img src="./icons/web.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

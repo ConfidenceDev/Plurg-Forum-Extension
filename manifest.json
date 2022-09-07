@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Plurg",
+  "version": "0.0.1",
+  "description": "Connecting with people",
+  "permissions": ["activeTab", "tabs", "storage"],
+  "icons": { "32": "icons/plug-32.png", "128": "icons/plug-128.png" },
+  "action": {
+    "default_icon": { "32": "icons/plug-32.png", "128": "icons/plug-128.png" },
+    "default_title": "Plurg",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
