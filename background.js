@@ -1,6 +1,6 @@
 try {
   self.importScripts("socket.js");
-  const socket = io("http://localhost:5000", { transports: ["websocket"] });
+  const socket = io("https://www.plurg.me", { transports: ["websocket"] });
 
   let online = null;
   let note = null;
